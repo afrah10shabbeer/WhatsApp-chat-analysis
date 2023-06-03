@@ -295,7 +295,7 @@ def main():
 
     # Main logic of the program goes here
 
-    chat_file_path = "/home/afrah/Documents/Afrah_stuff/Projects/WhatsApp_chat_analysis/WhatsApp Chat with Feroz.txt"
+    chat_file_path = "WhatsApp_chat_analysis/WhatsApp Chat with Bob.txt"
     object = WhatsAppChatAnalyzer(chat_file_path)
 
     object.preprocess_chat_data()
